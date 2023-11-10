@@ -6,5 +6,6 @@ const 객체 = {
 };
 
 // 나이라는 객체를 100 -> 20으로 수정하고 출력해보세요.
-
-console.log(객체);
+const 새로운객체 = {};
+Object.assign(새로운객체, 객체, { 나이: 20 });
+console.log(새로운객체);
